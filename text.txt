@@ -1,0 +1,45 @@
+/ use plantnet to fetch all the similar looking plants form images
+   // 1. https://my-api.plantnet.org/v2/identify/all?api-key=${APIkey}&include-related-images=true
+  
+//use perenial API to fetch the id from the name string passed by selecting a plant from plantnet
+   // 1.https://perenual.com/api/v2/species-list?key=[YOUR-API-KEY]&q=monstera (provide a name)
+   // 2.https://perenual.com/api/v2/species/details/[ID]?key=[YOUR-API-KEY] (not all plants available)
+
+// searching based on the criterail
+   // 1. Watering - optional, string
+        // The watering amount of the species.
+        // Options - frequent, average, minimum, none
+        // https://perenual.com/api/v2/species-list?key=[YOUR-API-KEY]&watering=frequent
+
+   // 2.Sunlight - optional, string
+        // The sunlight amount of the species.
+        // Options - full_shade, part_shade, sun-part_shade, full_sun
+        // https://perenual.com/api/v2/species-list?key=[YOUR-API-KEY]&sunlight=full_sun
+
+    // 3.Indoor - optional, boolean, default is NULL
+        // If plant species is indoors
+        // https://perenual.com/api/v2/species-list?key=[YOUR-API-KEY]&indoor=1
+
+    // 4. Hardiness - optional, integer, Min is 1, Max is 13
+        // Hardiness Zone of plant species
+        // Zone Options - 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13
+        // https://perenual.com/api/v2/species-list?key=[YOUR-API-KEY]&hardiness=1-13
+
+    // 5. Cycle - optional, string
+        // The plant cycle of the species.
+        // Options - perennial, annual, biennial, biannual
+        // https://perenual.com/api/v2/species-list?key=[YOUR-API-KEY]&cycle=annual
+
+//Plants Diseases List
+//https://perenual.com/api/pest-disease-list?key=sk-yxsV687012eecdd4311381
+
+    //  1.q - optional, string
+        //  A string/query consisting of keywords that are used to search for names of species
+        //  https://perenual.com/api/pest-disease-list?key=[YOUR-API-KEY]&q=monstera
+
+    // 2.ID - integer, optional
+        // ID of disease species
+        // https://perenual.com/api/pest-disease-list?key=[YOUR-API-KEY]&id=1
+
+
+// pass the id in the fetch options to perenial API to access all the data about the plant

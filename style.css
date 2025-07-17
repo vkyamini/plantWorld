@@ -1,0 +1,182 @@
+  body{
+    /* text-align: center; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px; 
+    background: #f6fff5;
+  }
+  #headerbody{
+    text-align: center;
+  }
+  #plantName {
+    width: 320px;
+    padding: 12px 16px;
+    font-size: 16px;
+    border: 1px solid #4CAF50;
+    border-radius: 20px;
+    outline: none;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: border 0.3s, box-shadow 0.3s;
+  }
+  .createcardiv{
+    margin-top: 5px;
+    box-shadow : 0 2px 8px rgba(0,0,0,0.2);
+    border-radius: 15px;
+    padding:10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* border: 1px solid black; */
+  }
+  .plantanatomydiv{
+    margin-top: 5px;
+    box-shadow : 0 2px 8px rgba(0,0,0,0.2);
+    border-radius: 15px;
+    padding:10px;
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* border: 1px solid black; */
+  }.previewimg{
+    border-radius: 20px;
+    border: 1px solid black;
+  }
+  
+  #plantName:focus {
+    border-color: #2e7d32;
+    box-shadow: 0 0 6px rgba(46, 125, 50, 0.5);
+  }
+  #searchBtn
+   {
+    width: 125px;
+    padding: 12px 20px;
+    /* margin-left: 10px; */
+    /* margin-right: 10px; */
+    font-size: 16px;
+    color:black;
+    background: #f6fff5;
+    border: none;
+    /* width:130px; */
+    border-radius: 20px;
+    cursor: pointer;
+    /* transition: background-color 0.3s ease;*/
+    box-shadow: 0 0 6px rgba(46, 125, 50, 0.5);
+  }
+  .Idebutton {
+    width: 300px;
+    padding: 12px 20px;
+    margin-left: 10px;
+    margin-top: 5px;
+    font-size: 20px;
+    font-size: medium;
+    color:black;
+    background-color:#2e7d32;
+    border: none;
+    box-shadow: 0 0 6px rgba(46, 125, 50, 0.5);
+    /* border: 1px solid #4CAF50; */
+    border-radius: 20px;
+    cursor: pointer;
+   }
+  .nextbtn,
+  .prevbtn
+  {
+    width: 125px;
+    padding: 12px 20px;
+    margin-left: 10px;
+    font-size: 16px;
+    color: white;
+    border: 1px solid #4CAF50;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+  }
+  .nextbtn:hover,
+  .prevbtn:hover{
+    background-color: #388E3C;
+    box-shadow: 0 0 6px rgba(46, 125, 50, 0.5);
+  }
+
+  #searchBtn:hover {
+    background-color: #388E3C;
+    box-shadow: 0 0 6px rgba(46, 125, 50, 0.5);
+  }
+  
+  #searchBtn:active {
+    background-color: #2e7d32;
+  }
+  #imgaeuploaddiv{
+    margin-top: 10px;
+  }
+  #custom-upload{
+    background-color: #388E3C;
+  
+
+  }
+.plant-card {
+    
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    padding: 16px;
+    margin: 16px auto;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: box-shadow 0.3s ease;
+  }
+  .summary{
+    text-align: center;
+  }
+  .result{
+    text-align: center;
+  }
+ 
+  
+  .plant-card:hover {
+    border: 1px solid black;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+   
+
+  }
+  
+  .plant-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 12px;
+  }
+  
+  .plant-card p {
+    font-size: 16px;
+    color: #333;
+    margin: 8px 0;
+  }
+  
+  .plant-card a {
+    font-weight: bold;
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  .plant-card a:hover {
+    text-decoration: underline;
+  }
+  .upload-btn,
+  .camera {
+    
+    margin: 10px;
+    display: inline-block;
+    padding: 12px 20px;
+    color:black;
+    /* width:130px; */
+    border-radius: 20px;
+    cursor: pointer;
+    /* transition: background-color 0.3s ease;*/
+    box-shadow: 0 0 6px rgba(46, 125, 50, 0.5);
+  }
+  
+  .upload-btn:hover,
+  .camera:hover,
+  .Idebutton:hover {
+    background-color: #388E3C;
+    border: 1px solid #4CAF50;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    box-shadow: 0 0 6px rgba(46, 125, 50, 0.5);
+    color:white;
+  }
