@@ -1,4 +1,4 @@
-// can check only in localhost plantnet API nneds cors
+// can check only in localhost plantnet API needs cors
 // prenial APi has 2 calls, if fsecond one does not show then just display the first API call.
 
 
