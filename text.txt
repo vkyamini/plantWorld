@@ -1,3 +1,7 @@
+// can check only in localhost plantnet API nneds cors
+// prenial APi has 2 calls, if fsecond one does not show then just display the first API call.
+
+
 / use plantnet to fetch all the similar looking plants form images
    // 1. https://my-api.plantnet.org/v2/identify/all?api-key=${APIkey}&include-related-images=true
   
